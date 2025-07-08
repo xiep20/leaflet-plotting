@@ -1,0 +1,28 @@
+{
+    "initmap": {
+        "center": [
+            35.749956,
+            114.291356
+        ],
+        "zoom": 13,
+        "inertiaDeceleration": 15000,
+        "zoomControl": false,
+        "attributionControl": false
+    },
+    "view": {
+        "mapmodule": [
+            [
+                35.749956,
+                114.291356
+            ],
+            13
+        ],
+        "plotting": [
+            [
+                35.749956,
+                114.291356
+            ],
+            13
+        ]
+    }
+}

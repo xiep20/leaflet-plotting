@@ -1,0 +1,126 @@
+.home {
+  width: 100%;
+  height: 100%;
+}
+.marker-text{
+  text-align: center;
+  font-size: 12px;  
+  width: max-content;  
+  transform: translateX(50%);
+  i{
+    font-size: 16px;
+  }
+}
+.svg-arrow{
+  background: transparent;
+}
+.asp-map_shexiangtou:before {
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.asp-baoanzerenquyu:before {
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.point-mar{
+  color: #095ca0;
+  font-size: 16px;
+}
+.point-mar1{
+  color: #ffff00;
+  font-size: 16px;
+}
+.point-mar2{
+  color: #0ab142;
+  font-size: 16px;
+}
+.point-mar3{
+  color: #ff0000;
+  font-size: 16px;
+}
+.point-mar4{
+  color: #FF5722;
+  font-size: 16px;
+}
+.waring-poi{
+  background: url("~@/assets/image/waring.svg") no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.uav-poi{
+background: url("~@/assets/image/uav.svg") no-repeat;
+background-size: 100% 100%;
+border-radius: 50%;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.uav-war{
+  background: url("~@/assets/image/uav2.svg") no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.camera-poi{
+background: url("~@/assets/image/camera.svg") no-repeat;
+background-size: 100% 100%;
+border-radius: 50%;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.camera-war{
+  background: url("~@/assets/image/camera2.svg") no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.point-animation{
+  animation-name: mar-animation;
+  animation-duration: 2s;
+  animation-timing-function:ease;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+@keyframes mar-animation {
+  0% {
+    margin-top: -6px;
+  }
+
+  50% {
+    margin-top: -20px;
+  }
+
+  100% {
+    margin-top: -36px;
+  }
+}
+
+.markertext{
+  background: transparent;
+}
+.leaflet-container{
+  font-size: 16px;
+}
+
+.bubbleLabel {
+  width: max-content;
+  padding: 3px 5px 3px 5px;
+  font-size: 12px;
+  text-align: center;
+  // background: rgba(59, 134, 255, 0.8);
+  border-radius: 6px;
+  z-index: 999;
+  color: #FF5722;
+  text-shadow: 2px 2px 2px #FFC107;
+  z-index: 999;
+}
+
+.overClose {
+  padding: 15px 10px 5px 0;
+  box-sizing: border-box;
+}

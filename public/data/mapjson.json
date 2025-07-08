@@ -1,0 +1,22 @@
+{
+    "layer": [
+        {
+            "name": "天地图",
+            "img": "image/tdt.png",
+            "url": "",
+            "options": {}
+        },
+        {
+            "name": "布防图",
+            "img": "image/bft.png",
+            "url": "",
+            "options": {}
+        },
+        {
+            "name": "线划图",
+            "img": "image/xht.png",
+            "url": "",
+            "options": {}
+        }
+    ]
+}
